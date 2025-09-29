@@ -1,0 +1,13 @@
+#build artifacts
+dwm
+*.o
+*.d
+dwm-*
+
+#backup
+*~
+*.bak
+*.old
+
+config.def.h
+
