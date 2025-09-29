@@ -4,9 +4,13 @@ These configuration files are by no means tidy, but they work. The primary purpo
 
 # Patches applied:
 ---
+
 -statuscmd
+
 -alpha
+
 -attachaside
+
 -vanitygaps
 
 # Installation:
