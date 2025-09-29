@@ -4,14 +4,10 @@ These configuration files are by no means tidy, but they work. The primary purpo
 
 # Patches applied:
 ---
-
--statuscmd
-
--alpha
-
--attachaside
-
--vanitygaps
+- statuscmd
+- alpha
+- attachaside
+- vanitygaps
 
 # Installation:
 
@@ -19,4 +15,4 @@ These configuration files are by no means tidy, but they work. The primary purpo
 `cp -r <directory>/dwm <destination>` (e.g., `cp -r /home/user/temp/dwm .config/dwm`)
 enter the new directory with the copied files and `sudo make clean install`
 
--The status bar uses dwmblocks-async for better optimization.
+- The status bar uses dwmblocks-async for better optimization.
