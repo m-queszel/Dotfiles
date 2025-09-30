@@ -1,13 +1,19 @@
-# My dotfiles for dwm, dwmblocks-async, and (eventually) nvim
+# My dotfiles for dwm, dwmblocks-async, st, and (eventually) nvim
 ---
 These configuration files are by no means tidy, but they work. The primary purpose of this repository is to serve as a save point in case I break everything and need to go back.
 
-# Patches applied:
+# Patches applied to dwm:
 ---
 - statuscmd
 - alpha
 - attachaside
 - vanitygaps
+
+# Patches applied to st:
+---
+- alpha
+- undercurl
+- charoffsets
 
 # Installation:
 
