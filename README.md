@@ -1,6 +1,6 @@
 ## My dotfiles for dwm, dwmblocks-async, st, and nvim
 
-These configuration files are by no means tidy, but they work. The primary purpose of this repository is to serve as a save point in case I break everything and need to go back.
+These configuration files are by no means perfect, but they work. The primary purpose of this repository is to serve as a save point in case I break everything and need to go back.
 
 ## Patches applied to dwm:
 
@@ -23,7 +23,20 @@ enter the new directory with the copied files and `sudo make clean install`
 
 - The status bar uses dwmblocks-async for better optimization.
 
-## Neovim
+## Neovim Plugins
+
+- whichkey
+- autopairs
+- blink.cmp
+- lsp
+- telescope
+- treesitter
+- mason
+- mini-icons
+- webdev icons
+
 
 Note that you must manually clone the [lsp repository](https://github.com/neovim/nvim-lspconfig) into your directory.
+
+Once in nvim, run `:checkhealth` to see plugin dependencies.
 
