@@ -1,24 +1,29 @@
-# My dotfiles for dwm, dwmblocks-async, st, and (eventually) nvim
+## My dotfiles for dwm, dwmblocks-async, st, and nvim
 ---
 These configuration files are by no means tidy, but they work. The primary purpose of this repository is to serve as a save point in case I break everything and need to go back.
 
-# Patches applied to dwm:
+## Patches applied to dwm:
 ---
 - statuscmd
 - alpha
 - attachaside
 - vanitygaps
 
-# Patches applied to st:
+## Patches applied to st:
 ---
 - alpha
 - undercurl
 - charoffsets
 
-# Installation:
+## Installation:
 
 `git clone https://github.com/m-queszel/Dotfiles` in any directory.
 `cp -r <directory>/dwm <destination>` (e.g., `cp -r /home/user/temp/dwm .config/dwm`)
 enter the new directory with the copied files and `sudo make clean install`
 
 - The status bar uses dwmblocks-async for better optimization.
+
+## Neovim
+
+Note that for Neovim, you must manually clone the [lsp repository](https://github.com/neovim/nvim-lspconfig) into your nvim directory.
+
