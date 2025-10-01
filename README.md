@@ -25,5 +25,5 @@ enter the new directory with the copied files and `sudo make clean install`
 
 ## Neovim
 
-Note that for Neovim, you must manually clone the [lsp repository](https://github.com/neovim/nvim-lspconfig) into your nvim directory.
+Note that you must manually clone the [lsp repository](https://github.com/neovim/nvim-lspconfig) into your directory.
 
